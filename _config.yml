@@ -24,13 +24,47 @@ description: >- # this means to ignore newlines until "baseurl:"
   Jason Khew (Js0n) personal blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.jasonkhew96.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username: JasonKhew96
+timezone: "Asia/Singapore"
+
+author:
+  name: Jason Khew
+  bio: "Just an ordinary guy who loves to code and write"
+  location: "Singapore / Malaysia"
+  links:
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/JasonKhew96"
+    - label: "Telegram"
+      icon: "fa-brands fa-telegram"
+      url: "https://t.me/jasonkhew96"
+    - label: "Email"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:contact@jasonkhew96.dev"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/JasonKhew96"
+    - label: "Telegram"
+      icon: "fa-brands fa-telegram"
+      url: "https://t.me/jasonkhew96"
+    - label: "Email"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:contact@jasonkhew96.dev"
+
 
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -58,4 +92,7 @@ defaults:
       path: ""
       type: posts
     values:
+      author_profile: true
+      related: true
+      share: true
       show_date: true
