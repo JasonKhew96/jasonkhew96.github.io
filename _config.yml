@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Js0n
+title: Jason Khew
 email: contact@jasonkhew96.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Jason Khew (Js0n) personal blog
