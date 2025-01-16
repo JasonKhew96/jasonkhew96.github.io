@@ -112,6 +112,23 @@ span.text:hover > span {
 </style>
 <span class="text"><span>I</span><span>N</span><span>T</span><span>R</span><span>O</span><span>D</span><span>U</span><span>C</span><span>T</span><span>I</span><span>O</span><span>N</span></span>
 
+{% highlight html %}
+<span class="text">
+  <span>I</span>
+  <span>N</span>
+  <span>T</span>
+  <span>R</span>
+  <span>O</span>
+  <span>D</span>
+  <span>U</span>
+  <span>C</span>
+  <span>T</span>
+  <span>I</span>
+  <span>O</span>
+  <span>N</span>
+</span>
+{% endhighlight %}
+
 {% highlight css %}
 :nth-child(1) {
     --index: 1;
