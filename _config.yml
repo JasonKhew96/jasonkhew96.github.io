@@ -65,6 +65,12 @@ compress_html:
   ignore:
     envs: development  # disable compression in dev environment
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-PBLXMVE613"
+    anonymize_ip: false # default
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
